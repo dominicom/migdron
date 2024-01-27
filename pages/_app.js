@@ -1,7 +1,8 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
 
-import '../styles/main.css'
+import '@radix-ui/themes/styles.css';
+import '../styles/main.scss'
 
 export default function Nextra({ Component, pageProps }) {
   return (
